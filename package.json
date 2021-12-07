@@ -12,5 +12,8 @@
     "type": "git",
     "url": "nadtourtravel"
   },
-  "description": "Это сайт туристической фирмы"
+  "description": "Это сайт туристической фирмы",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

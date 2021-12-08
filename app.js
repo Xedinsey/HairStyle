@@ -1,19 +1,11 @@
 const express = require('express')
 const {engine} = require('express-handlebars')
+const {getFortune} = require("./lib/fortune")
 
 
 const app = express()
 const port = process.env.PORT || 3000
 
-
-// data
-const fortunes = [
-    "Победи свои страхи, или они победят тебя." ,
-    "Рекам нужны истоки." ,
-    "Не бойся неведомого.",
-    "Тебя ждет приятный сюрприз.",
-    "Будь проще везде, где только можно.",
-]
 
 
 // Настройка механизма представлений Handlebars.
@@ -26,8 +18,7 @@ app.get('/', (req, res) => res.render('home'))
 
 // Страница "О нас"
 app.get('/about', (req, res) => {
-    const randomFortune = fortunes[Math.floor(Math.random()*fortunes.length)]
-    res.render('about' , { fortune: randomFortune })
+    res.render('about' , { fortune: getFortune() })
 })
 
 // Пользовательская страница 404

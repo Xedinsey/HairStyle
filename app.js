@@ -9,17 +9,28 @@ const port = process.env.PORT || 3000
 
 
 // Настройка механизма представлений Handlebars.
-app.engine('handlebars', engine({defaultLayout: 'main'}))
-app.set('view engine', 'handlebars')
+app.engine('hbs', engine({defaultLayout: 'main'}))
+// app.set('view engine', 'handlebars')
+
+app.set('view engine', 'hbs')
 app.use(express.static(__dirname + '/public'))
 
 // Домашняя страница
-app.get('/', (req, res) => res.render('home'))
+app.get('/', (req, res) => res.render('index'))
+
+app.get('/about', (req, res) => res.render('about'))
+
+app.get('/blog', (req, res) => res.render('blog'))
+
+app.get('/contact', (req, res) => res.render('contact'))
+
+app.get('/services', (req, res) => res.render('services'))
+
 
 // Страница "О нас"
-app.get('/about', (req, res) => {
-    res.render('about' , { fortune: getFortune() })
-})
+// app.get('/about', (req, res) => {
+//     res.render('about' , { fortune: getFortune() })
+// })
 
 // Пользовательская страница 404
 app.use((req, res) => {

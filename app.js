@@ -20,15 +20,15 @@ app.use(express.static(__dirname + '/public'))
 
 // Роуты
 // Страница О нас
-app.get('/about', (req, res) => res.render('about'))
+app.get('/about', (req, res) => res.render('about', {title: "О нас"}))
 // Страница блога
-app.get('/blog', (req, res) => res.render('blog'))
+app.get('/blog', (req, res) => res.render('blog', {title: "Блог"}))
 // Страница контакты
-app.get('/contact', (req, res) => res.render('contact'))
+app.get('/contact', (req, res) => res.render('contact', {title: "Контакты"}))
 // Страница услуги
-app.get('/services', (req, res) => res.render('services'))
+app.get('/services', (req, res) => res.render('services', {title: "Услуги"}))
 // Домашняя страница
-app.get('/', (req, res) => res.render('home'))
+app.get('/', (req, res) => res.render('home', {title: "Домашняя страница"}))
 
 // Страница "О нас из учебника"
 // app.get('/about', (req, res) => {

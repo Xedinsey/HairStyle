@@ -1,8 +1,9 @@
 {
-  "name": "nadourtravel",
+  "name": "hairstyle",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "serve": "nodemon app.js",
     "start": "node app.js"
   },
   "keywords": [],
@@ -17,5 +18,8 @@
     "express": "^4.17.1",
     "express-handlebars": "^6.0.2",
     "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

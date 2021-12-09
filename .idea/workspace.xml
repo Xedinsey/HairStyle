@@ -15,7 +15,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46344c01-3b96-4424-9cac-4df665a2ebb1" name="Default Changelist" comment="init" />
+    <list default="true" id="46344c01-3b96-4424-9cac-4df665a2ebb1" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/views/partials/footer.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/header.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +74,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -116,6 +126,7 @@
       <workItem from="1638905535752" duration="2290000" />
       <workItem from="1638907852718" duration="1231000" />
       <workItem from="1638943977939" duration="5808000" />
+      <workItem from="1639030164815" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1638905885861</created>
@@ -159,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638988552522</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Настроил шаблон салона красоты,начал русификацию">
+      <created>1638992461574</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638992461574</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +200,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="change script" />
     <MESSAGE value="Все работает" />
-    <option name="LAST_COMMIT_MESSAGE" value="Все работает" />
+    <MESSAGE value="Настроил шаблон салона красоты,начал русификацию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настроил шаблон салона красоты,начал русификацию" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="317" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638968809465">
@@ -201,22 +220,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="832" y="413" key="Github.ShareDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1638907978029" />
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1638992399483">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1639032847357">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1638992399483" />
-    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1638992399483">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1639032847357" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1639032847357">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1638992399483" />
-    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1638992399483">
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1639032847357" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1639032847357">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1638992399483" />
-    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1638992399483">
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1639032847357" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1639032847357">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1638992399483" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1639032847357" />
     <state x="756" y="236" key="RollbackChangesDialog" timestamp="1638907711886">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
